@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f $1/hugo.toml ]; then
+    echo "Hugo"
+    exit 0
+else
+    exit 1
+fi
